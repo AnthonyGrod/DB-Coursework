@@ -4,7 +4,7 @@
 
 <?php
 $nazwa_konkursu = $_POST["nazwa_konkursu"];
-$conn = pg_connect("host=lkdb dbname=bd user=ag438477 password=030757Jg");
+$conn = pg_connect("host=lkdb dbname=bd user=ag438477 password=123");
 // Patrzymy, czy konkurs o takiej nazwie już istnieje
 $sql = "SELECT czy_konkurs_istnieje('$nazwa_konkursu')";
 $result = pg_query($conn, $sql);
