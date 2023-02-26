@@ -4,7 +4,7 @@
 ?>
 
 <?php
-$conn = pg_connect("host=lkdb dbname=bd user=ag438477 password=030757Jg");
+$conn = pg_connect("host=lkdb dbname=bd user=ag438477 password=123");
 // Sprawdzenie poprawnosci polaczenia z baza danych zawody.
 if (!$conn) {
     echo "Wystąpił błąd podczas łączneia się z bazą.\n";
